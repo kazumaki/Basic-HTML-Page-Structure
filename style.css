@@ -1,6 +1,17 @@
 .topnav{
-    background-color:black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background: white;
+  box-shadow: 0 3px 3px rgba(238, 238, 238, 0.6);
 }
+.nav-item-left{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding-left: 15px;
+  }
 
 $primaryColor: #13e293;
 
@@ -13,13 +24,13 @@ $primaryColor: #13e293;
 .left-column{
     display: inline-block;
     background-color: blue;
-    width: 75%; 
+    width: 75%;
 }
 
 .right-column{
     float: right;
     background-color: green;
-    width: 24%;   
+    width: 24%;
 }
 
 body {
