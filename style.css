@@ -1,5 +1,5 @@
 .topnav{
-    background-color: black;
+    background-color:black;
 }
 
 $primaryColor: #13e293;
@@ -8,6 +8,18 @@ $primaryColor: #13e293;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.left-column{
+    display: inline-block;
+    background-color: blue;
+    width: 75%; 
+}
+
+.right-column{
+    float: right;
+    background-color: green;
+    width: 24%;   
 }
 
 body {
