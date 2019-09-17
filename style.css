@@ -6,19 +6,21 @@
   background: white;
   box-shadow: 0 3px 3px rgba(238, 238, 238, 0.6);
 }
-.nav-item-left{
-  width: 25%;
-  height: 70px;
-  padding-left: 15px;
+
+.fa-search{
+    float: right;
 }
-.video-title{
-  background-color:white;
+
+#logo{
+    width: 150px;
+    height: auto;
 }
+
 .video-description{
   background-color: white;
 }
 
-.comment{
+.comments-new-comment{
   background-color: white;
 }
 
@@ -26,7 +28,6 @@
   background-color: white;
 }
 .view-count{
-  display: block;
   width: 20%;
   color: grey;
   font-weight: bold;
@@ -44,8 +45,6 @@
   max-width:100%;
   width:auto;
 }
-
-$primaryColor: #13e293;
 
 * {
   margin: 0;
@@ -79,26 +78,7 @@ h5 {
   padding: 0;
 }
 
-.content {
-  width: 85vw;
-  margin: 27px auto;
-  main {
-    width: 70%;
-    padding-right: 20px;
-    .video {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 25px;
-      height: 0;
-    }
-    .video iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
+
   .comment {
     display: flex;
     margin-bottom: 45px;
