@@ -6,9 +6,16 @@
   background: white;
   box-shadow: 0 3px 3px rgba(238, 238, 238, 0.6);
 }
+.nav-item-search{
+  padding: 0px;
+  width: 300px;
+  height: 30px;
+}
 
 .fa-search{
     float: right;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 #logo{
@@ -16,16 +23,57 @@
     height: auto;
 }
 
+.subscribe{
+  border-color: #cc0000;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  float: right;
+  display: flex;
+  background-color: #cc0000;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: white;
+}
+
+.subscribe h4{
+  font-size: 15px;
+  margin: auto;
+}
+
+.socialbuttom {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  display: flex;
+  float: left;
+  padding-left: 20px;
+}
+
+
+.socialbuttom h4{
+margin: auto;
+padding: auto;
+}
+
 .video-description{
   background-color: white;
+  display: flex;
+  float: right;
+  margin: auto;
+  padding-left: 10px;
+  margin-top: 20px;
 }
 
 .comments-new-comment{
   background-color: white;
+  float: left;
 }
 
 .video-details{
   background-color: white;
+  margin: auto;
 }
 .view-count{
   width: 20%;
