@@ -11,8 +11,15 @@
   <body>
   <nav class="topnav">
         <img id="logo" src="images/logo.png" alt=""/>
-        <section><input type="text" class="nav-item-search" Placeholder="Search"><i class="fa fa-search fa-lg "></i></section>
-        <button></button>
+        <section class="search">
+          <input type="text" class="nav-item-search" Placeholder="Search">
+          <button><i class="fa fa-search fa-lg"></i></button>
+        </section>
+        <section class="nav-buttons">
+          <button><i class="fas fa-th fa fa-lg"></i></button>
+          <button><i class="fas fa-bell fa fa-lg"></i></button>
+          <img src="images/comment-avatar2.jpg" alt="">
+        </section>
   </nav>
 
 <main class="content">
@@ -31,17 +38,25 @@
         <h4>
             "The Big Push - Sympathy for the devil (The Rolling Stones cover)"
         </h4>
-        <p class="view-count">
-            50,100 views
-        </p>
+        
         <section class="social">
-          <button class="socialbuttom"><i class="fas fa-thumbs-up fa fa-2x"></i><h4>LIKE</h4></button>
-          <button class="socialbuttom"><i class="fas fa-thumbs-down fa fa-2x"></i><h4>DISLIKE</h4></button>
-          <button class="socialbuttom"><i class="fas fa-share-alt fa fa-2x"></i><h4>SHARE</h4></button>
-          <button class="subscribe"><i class="fab fa-youtube-play fa fa-2x" id="yticon"></i><h4>SUBSCRIBE</h4></button>
+          50,100 views
+          <section class="social-buttons">
+            <button class="socialbuttom"><i class="fas fa-thumbs-up fa fa-2x"></i>7,9K</button>
+            <button class="socialbuttom"><i class="fas fa-thumbs-down fa fa-2x"></i>145</button>
+            <button class="socialbuttom"><i class="fas fa-share-alt fa fa-2x"></i>SHARE</button>
+          </section>
+          
         </section>
 
         <section class="video-description">
+            <button class="subscribe"><i class="fab fa-youtube-play fa fa-2x" id="yticon"></i><h4>SUBSCRIBE</h4></button>
+          <section class="user-details">
+            <img src="images/user-avatar.jpg" alt"">
+            <h4>The Big Push</h4>
+            <p>58,6K subscribers</p>
+            
+          </section>
                 <p>
                   Busking on the streets of Brighton.
 
@@ -58,20 +73,27 @@
 
 
     <section class="comments-new-comment">
-
-        <img class="user-icon" src="images/user-icon-1.PNG" alt="" />
-
         <section class="comment-box">
-            <p class="comment-box-user-name">John Doe</p>
-            <p>1 week ago</p>
-            <p>
+          <img class="user-icon" src="images/comment-avatar1.jpg" alt="">
+            <p class="comment-box-user-name">
+              John Doe 
+              <em>
+                1 week ago
+              </em>
+            </p>
+
+            <p class="comment">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolores facere, debitis
               voluptatibus nisi, inventore nihil sunt doloribus tenetur, enim
               ipsum vero accusantium veniam amet laboriosam incidunt! Debitis,
               quidem assumenda.
             </p>
-            <p class="comment-box-thumb">REPLY</p>
-          <p class="comment-box-replies">View 2 replies \/</p>
+            
+            <section class="comments-buttons">
+              <button class="comment-button"><i class="fas fa-thumbs-up fa fa-lg"></i> 322</button>
+              <button class="comment-button"><i class="fas fa-thumbs-down fa fa-lg"></i></button>
+              <strong>Reply</strong>
+            </section>
         </section>
 
     </section>
