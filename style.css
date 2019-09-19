@@ -37,14 +37,14 @@ body {
 }
 
 .fa-search {
-    float: right;
-    padding-top: 5px;
-    padding-left: 5px;
+  float: right;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 #logo {
-    width: 150px;
-    height: auto;
+  width: 150px;
+  height: auto;
 }
 
 .user-details img {
@@ -90,7 +90,7 @@ body {
   width: 150px;
   height: 40px;
   display: flex;
-  background-color: #cc0000;
+  background-color: #c00;
   font-family: sans-serif;
   font-size: 13px;
   color: white;
@@ -119,8 +119,8 @@ body {
 
 
 .socialbuttom h4 {
-margin: auto;
-padding: auto;
+  margin: auto;
+  padding: auto;
 }
 
 .video-content {
@@ -172,8 +172,8 @@ padding: auto;
 }
 
 .left-column{
-    width: 75%;
-    display: inline-block;
+  width: 75%;
+  display: inline-block;
 }
 
 .right-column{
@@ -214,14 +214,14 @@ h5 {
     margin-bottom: 10px;
   }
 
-  .comment-box-user-name h6{
-    display: none;
-  }
+.comment-box-user-name h6 {
+  display: none;
+}
 
-  .comment-box-name p {
-    color: grey;
-  }
+.comment-box-name p {
+  color: grey;
+}
 
-  .comment-box p {
-    margin-bottom: 10px;
-  }
+.comment-box p {
+  margin-bottom: 10px;
+}
