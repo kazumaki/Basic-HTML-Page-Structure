@@ -1,3 +1,24 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@kazumaki 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+3
+1134microverseinc/linters-config
+ Code Issues 0 Pull requests 1 Projects 0 Wiki Security Insights
+linters-config/css/stylelint.config.js
+@MauricioRobayo MauricioRobayo Add stylelint-config-standard
+702780b on 15 Jul
+110 lines (108 sloc)  4.18 KB
+  
 "use strict"
 
 module.exports = {
@@ -107,3 +128,15 @@ module.exports = {
     "value-list-max-empty-lines": 0,
   },
 }
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
