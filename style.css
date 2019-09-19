@@ -12,12 +12,12 @@ body {
   width: 100%;
 }
 
-.nav-buttons{
+.nav-buttons {
   display: flex;
   justify-content: center;
 }
 
-.nav-buttons button{
+.nav-buttons button {
   padding: 10px 10px;
   margin: auto;
   background-color: transparent;
@@ -26,65 +26,65 @@ body {
   color: grey;
 }
 
-.nav-buttons img{
+.nav-buttons img {
   border-radius: 50%;
   padding: 10px 10px;
 }
-.nav-item-search{
+.nav-item-search {
   padding: 0px;
   width: 300px;
   height: 30px;
 }
 
-.fa-search{
+.fa-search {
     float: right;
     padding-top: 5px;
     padding-left: 5px;
 }
 
-#logo{
+#logo {
     width: 150px;
     height: auto;
 }
 
-.user-details img{
+.user-details img {
   float: left;
   border-radius: 50%;
 }
 
-.user-icon{
+.user-icon {
   float: left;
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.comment{
+.comment {
   margin-left: 40px;
 }
 
-.comments-buttons{
+.comments-buttons {
   color: grey;
   margin-left: 60px;
 }
 
-.comments-buttons strong{
+.comments-buttons strong {
   font-family: sans-serif;
 }
 
-.comment-button{
+.comment-button {
   color: grey;
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
-.search button{
+.search button {
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
-.subscribe{
+.subscribe {
   border: none;
   padding: 5px 5px;
   width: 150px;
@@ -98,12 +98,12 @@ body {
   float: right;
 }
 
-.subscribe span{
+.subscribe span {
   font-size: 15px;
   margin: auto;
 }
 
-.social-buttons{
+.social-buttons {
   float: right;
 }
 
@@ -118,35 +118,35 @@ body {
 }
 
 
-.socialbuttom h4{
+.socialbuttom h4 {
 margin: auto;
 padding: auto;
 }
 
-.video-content{
+.video-content {
   width: 100%;
 }
 
-.video-description p{
+.video-description p {
   margin-top: 15px;
 }
 
-.video-description{
+.video-description {
   background-color: white;
   padding-left: 10px;
   margin-top: 20px;
 }
 
-.comments-new-comment{
+.comments-new-comment {
   background-color: white;
   margin-top: 15px;
   padding: 25px 10px;
 }
 
-.video-details{
+.video-details {
   background-color: white;
 }
-.view-count{
+.view-count {
   width: 20%;
   color: grey;
   font-weight: bold;
